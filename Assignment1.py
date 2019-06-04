@@ -9,7 +9,7 @@ def main():
 
     if result != -1:
 		print("Element is present at index % d" % result)
-	else:
+    else:
 		raise Exception("Element is not present in array")
 
 
